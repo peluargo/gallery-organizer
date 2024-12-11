@@ -10,6 +10,8 @@ unknownDateDirName = 'unknown-date'
 fromDatetimeFormat = '%Y:%m:%d %H:%M:%S'
 toDatetimeFormat = '%Y%m%d_%H%M%S%f'
 targetDirNameFormat = '%Y-%m'
+totalFiles = 0
+migratedFiles = 0
 
 files = listdir(fromDirPath)
 
@@ -53,10 +55,12 @@ for file in files:
         if not targetDirExists(targetDirPath):
             mkdir(targetDirPath)
 
+        fileDestinationPath = targetDirPath + "/" + getNewFileName(fileSourcePath) + getFileExtension(file)
+
         # moves the file
-        # rename(fileSourcePath, targetDirPath + "/" + getNewFileName(fileSourcePath) + getFileExtension(file))
+        # rename(fileSourcePath, fileDestinationPath)
 
         # copies the file, preserving the original
-        shutil.copy(fileSourcePath, targetDirPath + "/" + getNewFileName(fileSourcePath) + getFileExtension(file))
+        shutil.copy(fileSourcePath, fileDestinationPath)
 
 
