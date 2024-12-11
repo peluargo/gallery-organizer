@@ -2,6 +2,7 @@ from os import listdir, mkdir, rename
 from os.path import isfile, isdir, join, splitext
 from PIL import Image
 from datetime import datetime
+import shutil
 
 fromDirPath = './from'
 toDirPath = './to'
@@ -52,6 +53,10 @@ for file in files:
         if not targetDirExists(targetDirPath):
             mkdir(targetDirPath)
 
-        rename(fileSourcePath, targetDirPath + "/" + getNewFileName(fileSourcePath) + getFileExtension(file))
+        # moves the file
+        # rename(fileSourcePath, targetDirPath + "/" + getNewFileName(fileSourcePath) + getFileExtension(file))
+
+        # copies the file, preserving the original
+        shutil.copy(fileSourcePath, targetDirPath + "/" + getNewFileName(fileSourcePath) + getFileExtension(file))
 
 
