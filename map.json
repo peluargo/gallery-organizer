@@ -1,0 +1,86 @@
+{
+    "_created_at": "2024-12-12 13:15:15",
+    "_extension": "json",
+    "_items": [
+        {
+            "from_path": "./from/1460B840-3F1F-49B6-BD27-596688C9F551.jpg",
+            "name": "1460B840-3F1F-49B6-BD27-596688C9F551.jpg",
+            "to_path": "./to/2022-04/dfc35f19-02c8-43d9-be5a-b0cadf3f90cb.jpg"
+        },
+        {
+            "from_path": "./from/20220108_160327.jpg",
+            "name": "20220108_160327.jpg",
+            "to_path": "./to/2022-01/687ddee6-b7f8-431a-b3e7-67ca70420b64.jpg"
+        },
+        {
+            "from_path": "./from/20220108_160404.jpg",
+            "name": "20220108_160404.jpg",
+            "to_path": "./to/2022-01/30deb50f-f8ae-49e9-b88c-55dc970014cf.jpg"
+        },
+        {
+            "from_path": "./from/20220108_160903.jpg",
+            "name": "20220108_160903.jpg",
+            "to_path": "./to/2022-01/5f55cde7-42dd-43c3-902c-78fa739db8af.jpg"
+        },
+        {
+            "from_path": "./from/20220108_160940.jpg",
+            "name": "20220108_160940.jpg",
+            "to_path": "./to/2022-01/06a8172e-d25a-43d1-a86f-b6ad8bcd57ae.jpg"
+        },
+        {
+            "from_path": "./from/20220108_161939.jpg",
+            "name": "20220108_161939.jpg",
+            "to_path": "./to/2022-01/b4177f64-0a5c-48df-a363-8e17da037489.jpg"
+        },
+        {
+            "from_path": "./from/20220416_170303.jpg",
+            "name": "20220416_170303.jpg",
+            "to_path": "./to/2022-04/c26689f5-4438-450d-8d9a-86dd36601fc6.jpg"
+        },
+        {
+            "from_path": "./from/20220416_171227.jpg",
+            "name": "20220416_171227.jpg",
+            "to_path": "./to/2022-04/d79bfa94-19da-4458-9130-6b721c404f2a.jpg"
+        },
+        {
+            "from_path": "./from/20220710_151931.jpg",
+            "name": "20220710_151931.jpg",
+            "to_path": "./to/2022-07/1c5b6193-7025-4603-acbd-26cc250ba698.jpg"
+        },
+        {
+            "from_path": "./from/20220710_151943.jpg",
+            "name": "20220710_151943.jpg",
+            "to_path": "./to/2022-07/16d2c135-fd03-4a40-b64b-bbae15e31024.jpg"
+        },
+        {
+            "from_path": "./from/20220710_152015.jpg",
+            "name": "20220710_152015.jpg",
+            "to_path": "./to/2022-07/6f78211c-fe44-42bd-9e25-d756d1e17973.jpg"
+        },
+        {
+            "from_path": "./from/9f175bd2-f44f-49fc-8cf0-9929bf68e2fa.jpg",
+            "name": "9f175bd2-f44f-49fc-8cf0-9929bf68e2fa.jpg",
+            "to_path": "./to/unknown-date/f3887903-5441-4bec-a0c6-65e62c5fb79f.jpg"
+        },
+        {
+            "from_path": "./from/b03b6bf8-663f-4346-9b5b-29f4aa601771.jpg",
+            "name": "b03b6bf8-663f-4346-9b5b-29f4aa601771.jpg",
+            "to_path": "./to/unknown-date/b79f3274-ce7a-4d00-9a1b-716257577646.jpg"
+        },
+        {
+            "from_path": "./from/IMG_6384.HEIC",
+            "name": "IMG_6384.HEIC",
+            "to_path": "./to/2022-04/eeb1f2be-f43c-4e4f-b7d0-4f5be14ec040.HEIC"
+        },
+        {
+            "from_path": "./from/IMG_9879.HEIC",
+            "name": "IMG_9879.HEIC",
+            "to_path": "./to/2022-07/24ece056-c9c1-4f40-8f31-14e0a50ddd79.HEIC"
+        }
+    ],
+    "_message": null,
+    "_name": "map",
+    "_path": "./",
+    "_status": "NOT_STARTED",
+    "_updated_at": "2024-12-12 15:16:41"
+}

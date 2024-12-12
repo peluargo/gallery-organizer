@@ -1,9 +1,10 @@
 import os
 import sys
 import math
+from Logger import Logger
 
 class ProgressBar():
-    def __init__(self, progress = 0, total = 100, fill = '░', empty = ' ', left_handle = '▌', right_handle = '▐'):
+    def __init__(self, progress = 0, total = 100, fill = '░', empty = ' ', left_handle = '▌', right_handle = '▐', logger = Logger()):
         self.progress = progress
         self.progress_percentage = 0
         self.total = total
@@ -12,6 +13,7 @@ class ProgressBar():
         self.left_handle = left_handle
         self.right_handle = right_handle
         self.bar = None
+        self.logger = logger
 
     def update_progress_percentage(self):
         self.progress_percentage = math.ceil(100 * self.progress / self.total)
@@ -35,6 +37,12 @@ class ProgressBar():
         self.update()
 
     def display(self):
-        sys.stdout.write('\033[2A')
-        print(f'Progress: {self.progress} / {self.total} ({self.progress_percentage}%)')
-        print(self.bar)
+        # give some top margin before printing the line
+        self.logger.log('\n')
+
+        # move console cursor up by two lines so that we can use
+        # always the same line to print the progress bar, giving
+        # it a smooth animation
+        self.logger.clear_last_lines(2)
+        self.logger.log(f'Progress: {self.progress} / {self.total} ({self.progress_percentage}%)')
+        self.logger.log(self.bar)
