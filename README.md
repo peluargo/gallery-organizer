@@ -29,5 +29,5 @@ If a creation date is not provided, we simply group them into a "Unknow Date" fo
 
 While in the root folder, run:
 ```
-python main.py
+python server/main.py
 ```
